@@ -1,19 +1,25 @@
-# React + Vite
+#De que se trata este proyecto 
+-Tienda de juegos Online
+-En modo admin
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#como iniciar el proyecto
+-Una vez descargamos el proyecto Repositorio-N1-Frontend-main
+-Extraemos el rar y abrimos la carpeta Visual Estudio Code
+-abrir una terminal Command Prompt
+- ejecutar el siguiente codigo: npm install para rellenar la carpeta node_modules
+- ejecutar el siguiente codigo: npm run dev para poder visualizarlo con localhost
+- saltara el siguiente mensaje:
+  
+###########################################
+> my-app@0.0.0 dev
+> vite
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  VITE v7.1.2  ready in 223 ms
 
-## Expanding the ESLint configuration
+  ➜  Local:   http://localhost:5173/ #Damos ctrl+ click en esta URL para llevarnos al Frontend
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+###########################################
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-"# clases-desarrollo-web" 
-
-
-
-Martìn Jimenez v1.# Evaluaci-n-N-1
-# Evaluaci-n-N-1
-# Nota-1-Frontend
+  #Una vez cumplidos los pasos podremos visualizar nuestro proyecto sin errores para volver a trabajar :c
