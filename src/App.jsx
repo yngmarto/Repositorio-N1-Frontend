@@ -22,11 +22,11 @@ export default function App() {
           <AlertaAñadir />
         </div>
       </div>
-      <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap', backgroundColor: '#000000ff' }}>
+      <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap' }}>
         {/* Producto 1 */}
         <div
           className='contenedor_producto_1'
-          style={{ display: 'flex', border: '2px solid rgba(92, 91, 91, 1)', flex: '1 1 360px' }}
+          style={{ display: 'flex', border: '2px solid rgba(255, 255, 255, 1)', flex: '1 1 360px', backgroundColor: '#000000ff' }}
         >
           <div style={{ width: "40%", height: "240px" }}>
             <img
@@ -47,7 +47,7 @@ export default function App() {
         {/* Producto 2 */}
         <div
           className='contenedor_producto_2'
-          style={{ display: 'flex', border: '2px solid rgba(92, 91, 91, 1)', flex: '1 1 360px' }}
+          style={{ display: 'flex', border: '2px solid rgba(255, 255, 255, 1)', flex: '1 1 360px', backgroundColor: '#000000ff' }}
         >
           <div style={{ width: "50%", height: "290px" }}>
             <img
@@ -67,7 +67,7 @@ export default function App() {
         {/* Producto 3 */}
         <div
           className='contenedor_producto_3'
-          style={{ display: 'flex', border: '2px solid rgba(92, 91, 91, 1)', flex: '1 1 360px' }}
+          style={{ display: 'flex', border: '2px solid rgba(255, 255, 255, 1)', flex: '1 1 360px', backgroundColor: '#000000ff' }}
         >
           <div style={{ width: "50%", height: "290px" }}>
             <img
@@ -80,7 +80,7 @@ export default function App() {
             <Botoneliminar />
             <h2>$35.990 CLP</h2>
             <p>Hogwarts Legacy - Vive la magia en el mundo de Harry Potter con hechizos, pociones y criaturas fantásticas</p>
-            <BotonBasico isDisabled={false} />
+            <BotonBasico isDisabled={true} />
           </div>
         </div>
       </div>
