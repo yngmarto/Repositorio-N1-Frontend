@@ -8,7 +8,7 @@ export default function BotonBasico({ isDisabled }) {
     <Box display="flex" justifyContent="center" alignItems="center" width="100%">
       <Stack direction="row" spacing={2}>
         {isDisabled ? 
-          <Button disabled>Agotado</Button>
+          <Button disabled style={{color: "red"}}>Agotado</Button>
           : <Button>Comprar</Button>
         }
       </Stack>
